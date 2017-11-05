@@ -1,2 +1,3 @@
 # Samples
-Code samples
+Some samples
+Code it for fun
