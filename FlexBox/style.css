@@ -1,0 +1,57 @@
+.container-1 div, .container-2 div, .container-3 div {
+    border: 3px rgb(174, 192, 186) solid;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box-1 {
+    flex: 2;
+    order: 2;
+}
+
+.box-2 {
+    flex: 1;
+    order: 1;
+    align-self: flex-end;    
+}
+
+.box-3 {
+    flex: 1;
+    order: 3;
+    align-self: flex-end;    
+}
+
+.container-2-box {
+    flex-basis: 30%;
+}
+
+@media(min-width:768px) {
+    .container-1 {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .container-2 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .container-2 div {
+        border-radius: 0;
+        border-width: 1px;
+        margin: 10px 0;
+    }
+
+}
+
+.container-3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.container-3-box {
+    flex-basis: 15%;
+}
