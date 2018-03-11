@@ -1,0 +1,3 @@
+# Fake Promise
+- Try to figure out how Promise in JavaScript actually work
+- To Be Continue ...
